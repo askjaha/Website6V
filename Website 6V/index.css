@@ -112,3 +112,73 @@
       max-width: 100%;
     }
   }
+
+  .click-button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .click-button:hover {background-color: #3e8e41}
+  
+  .click-button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  /* kleuren */
+
+  .nav-kleur {
+      background-color: rgb(8,120,48);
+  }
+
+  body {
+      background-color: rgb(9, 93, 38);
+      color: white;
+  }
+
+  .bg-succes{
+      background-color: #198754;
+  } /* Dit is een kleur van Bootstrap alleen werkte deze niet dus heb ik hem voor de zekerheid zelf ook gemaakt */
+  .btn-succes{
+    background-color: #198754;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(9, 93, 38); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(8, 120, 47, 0); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(8, 120, 47, 0); 
+  }
+
+  .text-foto {
+    position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  }
+
+  .footer{
+      text-align: center;
+      color: white;
+  }

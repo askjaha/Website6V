@@ -4,32 +4,32 @@
   <title>Template website</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="index.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://kit.fontawesome.com/56537501d7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
 	
-<div class="p-4 bg-primary text-white rounded"> <!-- Header -->
+<div class="p-4 bg-succes text-white rounded"> <!-- Header -->
 	<h1>Page 3</h1>
 </div> 
 
 <div class="container-fluid">
-	<nav class="navbar navbar-expand-sm bg-light"> <!-- 'Navigatiebar' voor de pagina's --> 
+	<nav class="navbar navbar-expand-sm nav-kleur rounded"> <!-- 'Navigatiebar' voor de pagina's --> 
 				<!-- Links -->
 			<ul class="navbar-nav">
-				<button class="btn btn-block btn-primary">
+				<button class="btn btn-block btn-succes">
 					<a href="index.html" class="text-light text-decoration-none"> <i class="fa-solid fa-house text-light"></i>Home
 				</button><!-- home button -->
 				<li class="nav-item">
-					<a class="nav-link" href="page1.html">Over mij</a>
+					<a class="nav-link text-light" href="page1.html">Over mij</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="page2.html">Link 2</a>
+					<a class="nav-link text-light" href="page2.html">Link 2</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="page3.html">Link 3</a>
+					<a class="nav-link text-dark" href="page3.html">Link 3</a>
 				</li>
 			</ul>
 	</nav>
@@ -42,32 +42,19 @@
 		</a>
 	</div>
 
-	<iframe width="560" height="315" 
-	src="https://www.youtube.com/embed/ZDEGMNNcpiU" allowfullscreen>
-</iframe>
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
-	Meer info
-  </button>
-  <div class="modal fade" id="myModal">
-	<div class="modal-dialog">
-	  <div class="modal-content">
-  
-		<!-- Modal Header -->
-		<div class="modal-header">
-		  <h4 class="modal-title">Ford Mustang 1965</h4>
-		  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-		</div>
-  
-		<!-- Modal body -->
-		<div class="modal-body">
-			<p>Meer info</p>
-			<p>Test</p>
-		  <img class="card-img-top img-responsive" src="images/ford-mustang.jpg" alt="Card image" style="width:100%">
-		</div>
-  
-		<!-- Modal footer -->
-		<div class="modal-footer">
-		  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-		</div>
+	<div class="col-3">
+		<p>TEKST</p>
 	</div>
+	<div class="col-6">
+		<iframe width="728" height="410" src="https://www.youtube.com/embed/tGpTpVyI_OQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+
+
+<div class="row">
+	<div class="mt-4 p-5 bg-succes footer rounded col-12">
+		<h1>Footer</h1>
+	  </div>
+</div>
+
+
 </body>
